@@ -14,7 +14,7 @@
 - Configure **ANDROID_HOME**, **JAVA_HOME** and **GRADLE_HOME**
 - Stable internet connection
 
-## Scenario
+## Project Scenario
 - Automate any series for calculator app. Pass the series as a parameter to test method.  
 For an example:  
 
