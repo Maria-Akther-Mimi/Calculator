@@ -1,6 +1,5 @@
 # Simple-Calculator-App-Automation_Appium
 
-
 ## Technology: </br>
 - Tool: Selenium Webdriver
 - IDE: Intellij, Android Studio
@@ -16,7 +15,7 @@
 - Stable internet connection
 
 ## Scenario
-Automate any series for calculator app. Pass the series as a parameter to test method.  
+- Automate any series for calculator app. Pass the series as a parameter to test method.  
 For an example:  
 
 100/10*5-10+60  
@@ -36,14 +35,7 @@ calcuateSeries("100/10*5-10+60");
 - Open Appium Server with this command:  
   ```Appium```  
 - Open Appium Inspector
-- Set desired capabilites:  
-  {  
-    "platformName": "Android",  
-    "appium:platformVersion": "14",  
-    "appium:appPackage": "com.google.android.calculator",  
-    "appium:appActivity": "com.android.calculator2.Calculator",  
-    "appium:app": "F:\\Apk\\calculator.apk"  
-  }  
+- Set desired capabilites
 - Open Intellij Idea
 - Hit this command into the terminal:  
   ```gradle clean test```  
